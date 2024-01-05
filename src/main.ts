@@ -63,6 +63,7 @@ const generateTodoList = (title: string, isCompleted: boolean, _id: string)=> {
    removeTodoItem(_id)
    if(!todos.length) {
     const empty:HTMLParagraphElement = document.createElement('p');
+      empty.className = 'no_todo';
      empty.innerText = 'No Todo yet!'
      todoContainer.appendChild(empty)
      }
