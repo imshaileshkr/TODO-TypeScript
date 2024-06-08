@@ -93,4 +93,5 @@ p {
 }
 .no_todo {
   text-align: center;
+  color: transparent;
 }
